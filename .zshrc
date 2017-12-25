@@ -94,12 +94,16 @@ alias open8080="open http://localhost:8080"
 alias baidu="open https://baidu.com"
 alias github="open https://github.com"
 alias me="open https://github.com/Raoul1996"
+alias issue="open https://github.com/Raoul1996/raoul1996.github.io/issues/new"
+alias readlist="open https://github.com/Raoul1996/raoul1996.github.io/issues/2"
+alias fq="xx && sudo ~/.miredo.sh"
 alias vi='vim'
 alias javac="javac -J-Dfile.encoding=utf8"
 alias grep="grep --color=auto"
-alias -s html=atom   # 在命令行直接输入后缀为 html 的文件名，会在 TextMate 中打开
-alias -s rb=atom     # 在命令行直接输入 ruby 文件，会在 TextMate 中打开
-alias -s py=vi       # 在命令行直接输入 python 文件，会用 vim 中打开，以下类似
+alias -s html=atom
+alias -s md=atom
+alias -s rb=atom
+alias -s py=vi
 alias -s js=vi
 alias -s c=vi
 alias -s java=vi
